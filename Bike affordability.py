@@ -4,6 +4,7 @@ from mistralai.client import Mistral
 
 client = Mistral(api_key=os.environ.get("MISTRAL_API_KEY"))
 
+#prompts given in dictionary format
 inputs = [
         {
             "role": "user",
